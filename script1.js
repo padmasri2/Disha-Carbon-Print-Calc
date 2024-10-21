@@ -47,10 +47,10 @@ const questions = [
     {
         question: "What is the number of high energy devices frequently used?",
         options: [
-            { text: "AC - 0, Water heater - 2", value: 13.12 },
-            { text: "AC - 1, Water heater - 2", value: 22.96 },
-            { text: "AC - 2, Water heater - 2", value: 32.8 },
-            { text: "AC - 3, Water heater - 3", value: 6.56 }
+            { text: "AC - 0, Water heater - 2", value: 6.56 },
+            { text: "AC - 1, Water heater - 2", value: 13.12 },
+            { text: "AC - 2, Water heater - 2", value: 22.96 },
+            { text: "AC - 3, Water heater - 3", value: 32.8 }
         ]
     }
 ];
