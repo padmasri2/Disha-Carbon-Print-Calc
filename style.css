@@ -22,16 +22,41 @@ h1 {
     margin: 20px 0;
 }
 
+.option {
+    display: flex;
+    flex-direction: column; /* Stack image above text */
+    align-items: center; /* Center items horizontally */
+    margin-bottom: 20px; /* Adjust spacing between options */
+}
+
+.option-image {
+    width: 150px; /* Adjust size as needed */
+    height: auto;
+    margin-bottom: 5px; /* Space between image and button */
+}
+
 .btn {
     display: block;
-    width: 100%;
-    padding: 10px;
+    width: 48%; /* Adjust width for two buttons in a row */
+    padding: 5px; /* Reduce padding for a smaller button */
     background-color: #28a745;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 14px; /* Adjust font size as needed */
 }
+
+.btn:hover {
+    background-color: #218838;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between; /* Space between buttons */
+    margin-top: 20px; /* Space above buttons */
+}
+
 
 .btn:hover {
     background-color: #218838;
