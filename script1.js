@@ -117,10 +117,6 @@ function showResult() {
     const quizContainer = document.getElementById('quiz');
     quizContainer.innerHTML = '';
 
-    const resultText = `Your estimated carbon footprint is ${totalCO2.toFixed(2)} kg CO2/day.`;
-    quizContainer.innerHTML = `<div class="result">${resultText}</div>`;
-
-    // Add the image
     const resultImage = document.createElement('img');
     resultImage.src = "images/CO2FP.jpeg"; 
     resultImage.alt = "Carbon Footprint Result"; 
@@ -130,6 +126,10 @@ function showResult() {
     resultImage.style.height = '300px';
 
     quizContainer.appendChild(resultImage);
+
+    const resultText = `Your estimated carbon footprint is ${totalCO2.toFixed(2)} kg CO2/day.`;
+    quizContainer.innerHTML = `<div class="result">${resultText}</div>`;
+
 }
 
 // Start the quiz
