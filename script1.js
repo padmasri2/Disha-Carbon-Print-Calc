@@ -122,7 +122,7 @@ function showResult() {
     resultImage.alt = "Carbon Footprint Result"; 
     resultImage.classList.add('result-image'); 
 
-    resultImage.style.width = '400px';
+    resultImage.style.width = '300px';
     resultImage.style.height = '300px';
 
     // Append the image to the container
