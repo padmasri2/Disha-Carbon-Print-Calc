@@ -63,9 +63,9 @@ const questions = [
         question: "What is the number of high energy devices frequently used?",
         options: [
             { text: "AC - 0, Water heater - 2", value: 13.12, image: "images/AC0WH2.jpg" },
-            { text: "AC - 1, Water heater - 2", value: 22.96, image: "images/ac_1_water_heater_2.jpeg" },
-            { text: "AC - 2, Water heater - 2", value: 32.8, image: "images/ac_2_water_heater_2.jpeg" },
-            { text: "AC - 3, Water heater - 3", value: 6.56, image: "images/ac_3_water_heater_3.jpeg" }
+            { text: "AC - 1, Water heater - 2", value: 22.96, image: "images/AC1WH2.jpeg" },
+            { text: "AC - 2, Water heater - 2", value: 32.8, image: "images/AC2WH2.jpeg" },
+            { text: "AC - 3, Water heater - 3", value: 6.56, image: "images/AC3WH3.jpeg" }
         ]
     }
 ];
