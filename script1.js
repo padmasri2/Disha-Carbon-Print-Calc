@@ -122,7 +122,7 @@ function showResult() {
 
     // Add the image
     const resultImage = document.createElement('img');
-    resultImage.src = "images/CO2FP.jpg"; // Update with the correct path to your image
+    resultImage.src = "images/CO2FP.jpeg"; // Update with the correct path to your image
     resultImage.alt = "Carbon Footprint Result"; // Accessibility
     resultImage.classList.add('result-image'); // Add a class for styling if needed
 
