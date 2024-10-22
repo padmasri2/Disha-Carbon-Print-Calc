@@ -45,6 +45,7 @@ h1 {
     border-radius: 5px;
     cursor: pointer;
     font-size: 14px; /* Adjust font size as needed */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
 }
 
 .btn:hover {
@@ -57,7 +58,34 @@ h1 {
     margin-top: 20px; /* Space above buttons */
 }
 
+/* Result styles */
+.result {
+    font-size: 1.5em; /* Makes the text larger */
+    color: #333; /* Sets a dark gray color for better readability */
+    font-weight: bold; /* Makes the text bold */
+    margin-top: 20px; /* Space above result text */
+}
 
-.btn:hover {
-    background-color: #218838;
+/* Result image styles */
+.result-image {
+    border-radius: 10px; /* Rounds the corners of the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+    margin-bottom: 15px; /* Adds space below the image */
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .result-image {
+        width: 100%; /* Makes the image responsive on smaller screens */
+        height: auto; /* Maintains aspect ratio */
+    }
+    .result {
+        font-size: 1.2em; /* Adjusts text size for smaller screens */
+    }
+}
+
+/* Hover effect for the image */
+.result-image:hover {
+    transform: scale(1.05); /* Slightly enlarges the image on hover */
+    transition: transform 0.3s; /* Smooth transition effect */
 }
