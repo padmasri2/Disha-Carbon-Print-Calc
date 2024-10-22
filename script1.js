@@ -91,8 +91,8 @@ function showQuestion() {
 
         if (option.image) {
             const img = document.createElement('img');
-            img.src = option.image; // Ensure the path is correct
-            img.alt = option.text; // Accessibility
+            img.src = option.image; 
+            img.alt = option.text; 
             img.classList.add('option-image');
             buttonContainer.appendChild(img);
         }
@@ -122,9 +122,12 @@ function showResult() {
 
     // Add the image
     const resultImage = document.createElement('img');
-    resultImage.src = "images/CO2FP.jpeg"; // Update with the correct path to your image
-    resultImage.alt = "Carbon Footprint Result"; // Accessibility
-    resultImage.classList.add('result-image'); // Add a class for styling if needed
+    resultImage.src = "images/CO2FP.jpeg"; 
+    resultImage.alt = "Carbon Footprint Result"; 
+    resultImage.classList.add('result-image'); 
+
+    resultImage.style.width = '300px';
+    resultImage.style.height = 'auto';
 
     quizContainer.appendChild(resultImage);
 }
